@@ -1,0 +1,19 @@
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+              "foreground": "#918ffa"
+            }
+            
+          },
+          {
+            "scope": "source.python",
+            "settings": {
+              "foreground": "#ffffff"
+            }
+            
+          }
+        ],
+        
+      },
