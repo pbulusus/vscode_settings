@@ -1,4 +1,4 @@
-    "editor.tokenColorCustomizations": {
+"editor.tokenColorCustomizations": {
         "textMateRules": [
           {
             "scope": "meta.function-call.generic.python",
@@ -13,7 +13,14 @@
               "foreground": "#ffffff"
             }
             
-          }
+          },
+          {
+            "scope": "string.quoted.single.python",
+            "settings": {
+              "foreground": "#3cfd7c"
+            }
+            
+          },
         ],
         
       },
