@@ -24,3 +24,34 @@
         ],
         
       },
+      
+      
+              "textMateRules": [
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "fontStyle" : "bold"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground" : "#569CD6",
+                    // "fontStyle" : "bold"
+                }
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground" : "#DCDCAA",
+                    // "fontStyle" : "bold"
+                }
+            },
+        ],
+        "comments": "#848a91",
+        "strings":  "#80c47a",
+
+    },
+    "terminal.integrated.defaultLocation": "editor",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, CaskaydiaCove NF",
+    "editor.mouseWheelZoom": true
